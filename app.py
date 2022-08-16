@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 import pytesseract
 import cv2
 
-pytesseract.pytesseract.tesseract_cmd='C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd=''
  
 app = Flask(__name__)
  
